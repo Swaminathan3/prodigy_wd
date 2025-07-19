@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Batman & His Gadgets</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- 🔊 Background Music Control -->
+  <audio id="bgMusic" loop>
+    <source src="assets/batman-theme.mp3" type="audio/mpeg" />
+    Your browser does not support audio.
+  </audio>
+  <button id="musicToggle" class="music-btn">🎵</button>
+
+  <div class="gif-background">
+    <img src="assets/batman-hero.gif.gif" alt="Batman Background" />
+  </div>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">🦇 Batman</div>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gadgets">Gadgets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="text">
+        <h1 class="fade-in">Sam’s Dark Knight</h1>
+        <p>Explore the tech that fuels the legend.</p>
+        <a href="#gadgets" class="btn">Explore Gadgets</a>
+      </div>
+      <div class="image">
+        <img src="assets/images/batman-hero.jpg" alt="Batman standing" />
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="gadgets">
+    <h2>Batman's Arsenal</h2>
+    <div class="features-grid">
+      <div class="feature-box">
+        <img src="assets/images/batarang.png" alt="Batarang" />
+        <h3>Batarang</h3>
+        <p>Sharp, stealthy and precise.</p>
+      </div>
+      <div class="feature-box">
+        <img src="assets/images/batmobile.jpg" alt="Batmobile" />
+        <h3>Batmobile</h3>
+        <p>Speed, armor, AI. The ultimate car.</p>
+      </div>
+      <div class="feature-box">
+        <img src="assets/images/grapple-gun.jpg" alt="Grapple Gun" />
+        <h3>Grapple Gun</h3>
+        <p>Scale buildings in a flash.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DayDreamer Enterprises. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
